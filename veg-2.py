@@ -142,14 +142,14 @@ class GooglePlaces(object):
         return place_details
     
 
-api = GooglePlaces('AIzaSyDLTOkFGf3Kz6FhtDWLi_jUlQY1ImVrLhc')
+api = GooglePlaces('******')
 places = api.search_places_by_coordinate(curr_location,  "3000", "restaurant")
 fields = ['name', 'user_ratings_total', 'formatted_address','geometry', 'international_phone_number', 'website', 'rating', 'review', 'photo']
 
 
 
 
-api_key = 'AIzaSyDLTOkFGf3Kz6FhtDWLi_jUlQY1ImVrLhc'
+api_key = '******'
 gmaps = googlemaps.Client(key = api_key)
 
 # for place in places:
