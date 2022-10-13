@@ -1,0 +1,15 @@
+testing_data.npy
+testing_labels.npy
+testing_sq_data.npy
+testing_sq_labels.npy
+train_data.npy
+train_labels.npy
+train_sq_data.npy
+train_sq_labels.npy
+current_sq_data.npy
+.train_sq_data.npy
+
+cnn_model_2.h5
+resnet2.h5
+
+extracted_pics/*
