@@ -75,6 +75,7 @@ import ast
 
 
 
+
 img = Image.open('./data/vege.png')
 
 st.set_page_config(
@@ -141,15 +142,16 @@ class GooglePlaces(object):
         place_details =  json.loads(res.content)
         return place_details
     
+api_key = st.secrets["api_key"]
 
-api = GooglePlaces('******')
+api = GooglePlaces(api_key)
 places = api.search_places_by_coordinate(curr_location,  "3000", "restaurant")
 fields = ['name', 'user_ratings_total', 'formatted_address','geometry', 'international_phone_number', 'website', 'rating', 'review', 'photo']
 
 
 
 
-api_key = '******'
+
 gmaps = googlemaps.Client(key = api_key)
 
 # for place in places:
