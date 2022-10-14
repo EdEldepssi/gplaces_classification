@@ -12,12 +12,8 @@ import pandas as pd
 
 import numpy as np
 
-from keras.layers import Dense, Conv2D, MaxPool2D, Dropout, Flatten
-from keras.models import Sequential
 from keras.preprocessing.image import ImageDataGenerator
 
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 from tensorflow.keras import utils
 from tensorflow.keras.datasets import mnist
  
@@ -36,7 +32,6 @@ from keras.applications.resnet import ResNet50
 
 from keras.applications.vgg16 import VGG16
 
-from keras.applications.inception_v3 import InceptionV3
 
 
 
@@ -54,18 +49,13 @@ import time
 from PIL import Image
 import googlemaps
 import numpy as np
-from keras.layers import Dense, Conv2D, MaxPool2D, Dropout, Flatten
-from keras.models import Sequential
 from keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 from tensorflow.keras.datasets import mnist
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras import utils
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.resnet50 import preprocess_input
 from sklearn.model_selection import train_test_split
-from keras.layers import Input, Flatten, Dense
 from keras.models import Model
 from tensorflow.keras.optimizers import Adam
 import os
