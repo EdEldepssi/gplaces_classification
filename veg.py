@@ -15,7 +15,6 @@ import numpy as np
 
  
 
-from tensorflow.keras.preprocessing import image
 
 from keras.applications.imagenet_utils import decode_predictions
 
@@ -47,7 +46,6 @@ from PIL import Image
 import googlemaps
 import numpy as np
 from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.resnet50 import preprocess_input
 from sklearn.model_selection import train_test_split
 from keras.models import Model
