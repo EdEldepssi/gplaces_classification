@@ -343,6 +343,8 @@ images_df2['name'] = images_df2['image_path'].apply(lambda x: x.split('/')[2].sp
 
 # st.dataframe(images_df0)
 
+st.dataframe(images_df0)
+
 st.title("Classified Plant-Based Items ❤️")
 
 st.image(images_df0['image_path'].values.tolist(), width=200, 
