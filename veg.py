@@ -1,39 +1,9 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
-
-
-
-
-
-
-
-
-
 import numpy as np
 
-
- 
-
-
-
-
-
 import os
-
-
-from keras.applications.vgg16 import VGG16
-
-
-
-
-
-
-
-
-
-
-
 
 import requests
 import json
@@ -45,7 +15,6 @@ from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 from keras.models import Model
 from tensorflow.keras.optimizers import Adam
-import pandas as pd
 from tensorflow.keras.models import load_model
 import ast
 
