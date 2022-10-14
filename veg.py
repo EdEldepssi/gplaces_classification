@@ -13,7 +13,6 @@ import pandas as pd
 import numpy as np
 
 
-from tensorflow.keras import utils
 from tensorflow.keras.datasets import mnist
  
 
@@ -50,7 +49,6 @@ import googlemaps
 import numpy as np
 from tensorflow.keras.datasets import mnist
 from tensorflow.keras.utils import to_categorical
-from tensorflow.keras import utils
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.resnet50 import preprocess_input
 from sklearn.model_selection import train_test_split
