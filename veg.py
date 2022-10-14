@@ -177,7 +177,7 @@ df = pd.read_csv('./data/place9s_df.csv')
 st.dataframe(df)
 
 # Importing cnn model
-cnn_model_2 = load_model('resnet.h5')
+cnn_model_2 = load_model('resnet2.h5')
 
 
 # # Predicting Test Data:
