@@ -12,4 +12,3 @@ current_sq_data.npy
 cnn_model_2.h5
 resnet2.h5
 
-extracted_pics/*
