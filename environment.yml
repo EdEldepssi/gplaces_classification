@@ -16,8 +16,6 @@ dependencies:
   - anyio=3.5.0
   - appdirs=1.4.4
   - applaunchservices=0.2.1
-  - appnope=0.1.2
-  - appscript=1.1.2
   - argon2-cffi=21.3.0
   - argon2-cffi-bindings=21.2.0
   - arrow=1.2.2
@@ -84,7 +82,6 @@ dependencies:
   - cython=0.29.30
   - cytoolz=0.11.0
   - daal4py=2021.5.0
-  - dal=2021.5.0
   - dask=2022.7.0
   - dask-core=2022.7.0
   - dataclasses=0.8
@@ -193,7 +190,6 @@ dependencies:
   - libedit=3.1.20210910
   - libev=4.33
   - libffi=3.3
-  - libgfortran=3.0.1
   - libiconv=1.16
   - libidn2=2.3.2
   - liblief=0.11.5
@@ -214,7 +210,6 @@ dependencies:
   - libxml2=2.9.14
   - libxslt=1.1.35
   - libzopfli=1.0.3
-  - llvm-openmp=12.0.0
   - llvmlite=0.38.0
   - locket=1.0.0
   - lxml=4.9.1
@@ -328,7 +323,6 @@ dependencies:
   - python-lsp-server=1.2.4
   - python-slugify=5.0.2
   - python-snappy=0.6.0
-  - python.app=3
   - python_abi=3.9
   - pytorch=1.12.0
   - pytz=2022.1
@@ -428,7 +422,6 @@ dependencies:
   - xarray=0.20.1
   - xlrd=2.0.1
   - xlsxwriter=3.0.3
-  - xlwings=0.24.9
   - xz=5.2.5
   - yaml=0.2.5
   - yapf=0.31.0
@@ -539,4 +532,13 @@ dependencies:
     - wsproto==1.1.0
     - yarg==0.1.9
     - yfinance==0.1.74
+    - pip:
+      - llvm-openmp=12.0.0
+      - appnope=0.1.2
+      - dal=2021.5.0
+      - python.app=3
+      - xlwings=0.24.9
+      - libgfortran=3.0.1
+      - appscript=1.1.2
+
 prefix: /opt/anaconda3
