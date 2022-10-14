@@ -21,7 +21,6 @@ import numpy as np
 
 import os
 
-from keras.applications.resnet import ResNet50
 
 from keras.applications.vgg16 import VGG16
 
