@@ -186,7 +186,6 @@ data_path = './extracted_pics'
 # In[4]:
 data_dir = os.listdir(data_path)
 
-st.write(data_dir)
 
 
 # In[6]:
@@ -206,6 +205,7 @@ for img in data_dir:
     except:
         continue
 
+st.write(img_data_list)
 # In[10]:
 # img_data = np.array(img_data_list)
 x = np.array(img_data_list)
