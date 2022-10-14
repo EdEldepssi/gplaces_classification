@@ -13,7 +13,6 @@ import pandas as pd
 import numpy as np
 
 
-from tensorflow.keras.datasets import mnist
  
 
 from tensorflow.keras.preprocessing import image
@@ -47,7 +46,6 @@ import time
 from PIL import Image
 import googlemaps
 import numpy as np
-from tensorflow.keras.datasets import mnist
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.resnet50 import preprocess_input
