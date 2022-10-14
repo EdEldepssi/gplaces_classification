@@ -17,9 +17,7 @@ import numpy as np
 
 
 
-from tensorflow.keras.applications.imagenet_utils import preprocess_input
 
-from tensorflow.keras.applications.resnet50 import preprocess_input
 
 import os
 
@@ -45,7 +43,6 @@ from PIL import Image
 import googlemaps
 import numpy as np
 from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.applications.resnet50 import preprocess_input
 from sklearn.model_selection import train_test_split
 from keras.models import Model
 from tensorflow.keras.optimizers import Adam
