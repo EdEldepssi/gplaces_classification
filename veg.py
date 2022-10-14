@@ -206,19 +206,19 @@ for img in data_dir:
 
 
 # In[10]:
-img_data = np.array(img_data_list)
+# img_data = np.array(img_data_list)
+x = np.array(img_data_list)
 
 
 # In[11]:
-np.save('./data/current_sq_data.npy', img_data)
+# np.save('./data/current_sq_data.npy', img_data)
 
-# In[12]:
-img_data = np.load('./data/current_sq_data.npy')
+# # In[12]:
+# img_data = np.load('./data/current_sq_data.npy')
 
-st.write(img_data)
 
-# In[13]:
-x = img_data
+# # In[13]:
+# x = img_data
 
 
 # # Predicting on test Data:
