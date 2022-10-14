@@ -16,7 +16,6 @@ import numpy as np
  
 
 
-from keras.applications.imagenet_utils import decode_predictions
 
 from tensorflow.keras.applications.imagenet_utils import preprocess_input
 
@@ -50,7 +49,6 @@ from tensorflow.keras.applications.resnet50 import preprocess_input
 from sklearn.model_selection import train_test_split
 from keras.models import Model
 from tensorflow.keras.optimizers import Adam
-import os
 import pandas as pd
 from tensorflow.keras.models import load_model
 import ast
