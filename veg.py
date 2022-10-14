@@ -11,10 +11,10 @@ import time
 from PIL import Image
 import googlemaps
 import numpy as np
-from tensorflow.keras.utils import to_categorical
-from sklearn.model_selection import train_test_split
-from keras.models import Model
-from tensorflow.keras.optimizers import Adam
+# from tensorflow.keras.utils import to_categorical
+# from sklearn.model_selection import train_test_split
+# from keras.models import Model
+# from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import load_model
 import ast
 
@@ -286,7 +286,7 @@ images_df0 = pd.DataFrame({'image_path': vegetarian_images})
 
 
 # In[37]:
-images_df0['image_path'][0].split('/')[2].split('+')[0]
+# images_df0['image_path'][0].split('/')[2].split('+')[0]
 
 
 # In[38]:
