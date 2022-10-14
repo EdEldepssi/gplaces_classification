@@ -497,7 +497,6 @@ dependencies:
     - pipreqs==0.4.11
     - plotly==5.8.0
     - proto-plus==1.22.1
-    - protobuf==3.19.4
     - psycopg2==2.9.3
     - py4j==0.10.9.5
     - pyarrow==9.0.0
