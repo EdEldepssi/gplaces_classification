@@ -204,7 +204,7 @@ for img in data_dir:
     except:
         continue
 
-
+st.writeI(image_paths)
 # In[10]:
 # img_data = np.array(img_data_list)
 x = np.array(img_data_list)
