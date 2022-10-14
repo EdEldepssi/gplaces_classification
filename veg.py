@@ -12,7 +12,6 @@ import pandas as pd
 
 import numpy as np
 
-from keras.preprocessing.image import ImageDataGenerator
 
 from tensorflow.keras import utils
 from tensorflow.keras.datasets import mnist
@@ -49,7 +48,6 @@ import time
 from PIL import Image
 import googlemaps
 import numpy as np
-from keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.datasets import mnist
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras import utils
