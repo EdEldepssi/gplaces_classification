@@ -215,6 +215,7 @@ np.save('./data/current_sq_data.npy', img_data)
 # In[12]:
 img_data = np.load('./data/current_sq_data.npy')
 
+st.write(img_data)
 
 # In[13]:
 x = img_data
