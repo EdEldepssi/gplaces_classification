@@ -40,6 +40,7 @@ st.set_page_config(
 st.title("Hello Plant-Based Lovers ❤️ ")
 
 import json
+url = 'http://ipinfo.io/json'
 loc_json = requests.get(url)
 my_loc = json.loads(loc_json.content)
 curr_location = my_loc['loc']
