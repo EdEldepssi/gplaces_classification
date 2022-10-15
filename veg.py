@@ -136,7 +136,7 @@ def main():
     data_dir = os.listdir(data_path)
     num = 0
 
-    if st.button("Submit"):
+    if st.button("Run Model"):
         bar = st.progress(0)
         bar.progress(10)
         st.header("Extracting Information")
