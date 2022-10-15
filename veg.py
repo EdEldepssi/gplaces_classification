@@ -39,17 +39,10 @@ st.set_page_config(
 
 st.title("Hello Plant-Based Lovers ❤️ ")
 
-import json
-url = 'http://ipinfo.io/json'
-loc_json = requests.get(url)
-my_loc = json.loads(loc_json.content)
-curr_location = my_loc['loc']
-
-
-# curr_location = st.text_input(
-#             "Enter Location:",
-#             value='lat,lng'
-#             )
+curr_location = st.text_input(
+            "Enter Location:",
+            value='latitude,longitude'
+            )
 
 #A class to take in location api key and return place and place details:
 class GooglePlaces(object):
