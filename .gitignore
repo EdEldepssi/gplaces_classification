@@ -10,4 +10,13 @@ current_sq_data.npy
 .train_sq_data.npy
 
 cnn_model_2.h5
+resnet.h5
+resnet3.h5
+resnet_model.ipynb
+sequential_model-2.ipynb
+sequential_model.ipynb
+google-places.ipynb
+cp_predicting.ipynb
+cp_google-places.py
+vgg16_model-copy1.ipynb
 
