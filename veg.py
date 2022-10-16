@@ -222,7 +222,7 @@ def main():
         st.dataframe(df)
 
         # Importing cnn model
-        cnn_model_2 = load_model('resnet3.h5')
+        cnn_model_2 = load_model('resnet2.h5')
 
 
         # # Predicting Test Data:

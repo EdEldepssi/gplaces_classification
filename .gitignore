@@ -11,6 +11,7 @@ current_sq_data.npy
 
 cnn_model_2.h5
 resnet.h5
+resnet3.h5
 resnet_model.ipynb
 sequential_model-2.ipynb
 sequential_model.ipynb
