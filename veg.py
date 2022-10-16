@@ -41,7 +41,7 @@ st.title("Hello Plant-Based Lovers ❤️ ")
 
 curr_location = st.text_input(
             "Enter Location:",
-            value="latitude,longitude"
+            value="lat,long"
             )
 
 #A class to take in location api key and return place and place details:
