@@ -93,7 +93,7 @@ api_key = st.secrets["api_key"]
 
 api = GooglePlaces(api_key)
 
-places = api.search_places_by_coordinate(curr_location,  "30", "restaurant")
+places = api.search_places_by_coordinate(curr_location,  "3000", "restaurant")
 fields = ['name', 'user_ratings_total', 'formatted_address','geometry', 'international_phone_number', 'website', 'rating', 'review', 'photo']
 
 gmaps = googlemaps.Client(key = api_key)
@@ -142,7 +142,7 @@ def main():
                 continue
 
 
-        for place in places:
+        for place in places[:30]:
             details = api.get_place_details(place['place_id'], fields)
             num+= 1
             bar.progress(num)
