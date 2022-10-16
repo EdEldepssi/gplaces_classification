@@ -41,7 +41,7 @@ st.title("Hello Plant-Based Lovers ❤️ ")
 
 curr_location = st.text_input(
             "Enter Location:",
-            value='latitude,longitude'
+            value="latitude,longitude"
             )
 
 #A class to take in location api key and return place and place details:
@@ -222,7 +222,7 @@ def main():
         st.dataframe(df)
 
         # Importing cnn model
-        cnn_model_2 = load_model('resnet3.h5')
+        cnn_model_2 = load_model('resnet2.h5')
 
 
         # # Predicting Test Data:
