@@ -36,8 +36,6 @@ st.set_page_config(
     }
 )
 
-st.image('./data/image.jpg')
-
 
 st.title("Hello Plant-Based Lovers ❤️ ")
 
