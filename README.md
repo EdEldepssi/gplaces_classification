@@ -51,8 +51,8 @@ people who are interested in following a plant-based diet and struggle to find p
 
 
 ### Findings:
-Out of the models I have used I found that resent50 model is performing much better with an accuracy score of 89% that sequential model with accuracy of 74 %
+Out of all models I have used, I found that resent50 model is performing much better with an accuracy score of 84% that sequential model with accuracy of 62 %
 
-I was able to achieve 89% accuracy with my resent50 model after I decided to train my model on 7 different classes [ vegetarian, non-vegetarian, places, drinks, deserts, ads, clutter ]
+I was able to achieve 84% accuracy with my resent50 model after I decided to train my model on 7 different classes [ vegetarian, non-vegetarian, places, drinks, deserts, ads, clutter ]
 
 
